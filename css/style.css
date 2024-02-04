@@ -1,0 +1,32 @@
+* {
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background-color: snow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > h1 {
+    color: crimson;
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+main > section > img {
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    main > section > img {
+        width: 90vw;
+    }
+}
